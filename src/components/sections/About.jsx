@@ -53,7 +53,7 @@ export default function About() {
                 <div className="bg-white p-4 rounded-lg shadow-sm flex items-center gap-3">
                   <Code className="text-blue-500 size-6" />
                   <div>
-                    <p className="font-bold">100+</p>
+                    <p className="font-bold">20+</p>
                     <p className="text-sm text-gray-500">Projects</p>
                   </div>
                 </div>
@@ -67,7 +67,7 @@ export default function About() {
                 <div className="bg-white p-4 rounded-lg shadow-sm flex items-center gap-3">
                   <User className="text-purple-500 size-6" />
                   <div>
-                    <p className="font-bold">5+</p>
+                    <p className="font-bold">2+</p>
                     <p className="text-sm text-gray-500">Years Exp</p>
                   </div>
                 </div>

@@ -29,12 +29,21 @@ export default function ProjectDetails({ project, onClose }) {
               <X className="size-5" />
             </button>
             
-            <div className="h-64 md:h-80 overflow-hidden">
-              <img
-                src={project.image}
-                alt={project.title}
-                className="w-full h-full object-cover"
-              />
+            <div className="h-64 md:h-80 overflow-hidden bg-gray-100">
+              {project.link ? (
+                <iframe
+                  src={project.link}
+                  className="w-full h-full"
+                  title={`Live preview of ${project.title}`}
+                  sandbox="allow-same-origin allow-scripts allow-popups allow-forms"
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                />
+              ) : (
+                <div className="w-full h-full flex items-center justify-center text-gray-400">
+                  No live preview available
+                </div>
+              )}
             </div>
           </div>
           
