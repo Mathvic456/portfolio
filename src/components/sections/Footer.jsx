@@ -11,10 +11,9 @@ const footerLinks = [
 ]
 
 const socialLinks = [
-  { name: 'GitHub', url: 'https://github.com/victor', icon: Github },
-  { name: 'LinkedIn', url: 'https://linkedin.com/in/victor', icon: Linkedin },
-  { name: 'Twitter', url: 'https://twitter.com/victor', icon: Twitter },
-  { name: 'Email', url: 'mailto:victor@example.com', icon: Mail },
+  { name: 'GitHub', url: 'https://github.com/Mathvic456', icon: Github },
+  { name: 'Twitter', url: 'https://x.com/ScribeVM', icon: Twitter },
+  { name: 'Email', url: 'mailto:Vmatthew727@gmail.com', icon: Mail },
 ]
 
 export default function Footer() {
@@ -91,8 +90,7 @@ export default function Footer() {
           <div className="border-t border-gray-800 pt-8 text-center">
             <p className="text-gray-500 text-sm flex items-center justify-center gap-1">
               Made with <Heart className="text-red-500 size-4" />, 
-              <Coffee className="text-yellow-600 size-4" />, 
-              and questionable life choices
+              and very questionable life choices
             </p>
           </div>
         </motion.div>

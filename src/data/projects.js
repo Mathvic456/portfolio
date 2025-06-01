@@ -11,7 +11,7 @@ export default [
   {
     id: 2,
     title: "E-commerce Platform Dashboard",
-    description: "A productivity app for organizing tasks with drag-and-drop functionality and team collaboration.",
+    description: "An e-commerce dashboard for products organisation and management.",
     tags: ["React", "Firebase", "DnD", "Tailwind"],
     link: "https://body-secrets-frontend.vercel.app/",
     github: "https://github.com/Mathvic456/bodySecrets_frontend",
@@ -43,5 +43,15 @@ export default [
     link: "https://portfolio.example.com",
     github: "https://github.com/victor/portfolio",
     details: "Built with Next.js for optimal performance. Features smooth animations with Framer Motion and responsive design with Tailwind CSS. Includes project showcase, skills section, and contact form."
-  }
+  },
+  {
+  "id": 6,
+  "title": "Friendship Game – Interactive Social Quiz",
+  "description": "A playful web app where users take quizzes and complete challenges to test their knowledge of friends.",
+  "tags": ["Next.js", "React", "Tailwind CSS", "Vercel", "v0.dev"],
+  "link": "https://v0-local-game-project.vercel.app/",
+  "github": null,
+  "details": "Built using Vercel's v0 AI code generator, this app allows users to join a game by entering their name, then engage in quizzes and challenges designed to strengthen friendships. The interface is responsive and styled with Tailwind CSS. The project is deployed via Vercel and leverages React and Next.js for its frontend architecture."
+}
+
 ]
