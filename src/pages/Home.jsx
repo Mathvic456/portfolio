@@ -12,6 +12,7 @@ import EasterEgg from '../components/ui/EasterEgg'
 import useEasterEgg from '../hooks/useEasterEgg'
 
 
+
 export default function Home() {
   const { showEgg, setShowEgg } = useEasterEgg('victor')
   
