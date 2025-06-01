@@ -6,7 +6,7 @@ import About from '../components/sections/About'
 import Portfolio from '../components/sections/Portfolio'
 import Experience from '../components/sections/Experience'
 import Services from '../components/sections/Services'
-import COntact from '../components/sections/COntact'
+import Contact from '../components/sections/COntact'
 import Footer from '../components/sections/Footer'
 import EasterEgg from '../components/ui/EasterEgg'
 import useEasterEgg from '../hooks/useEasterEgg'
@@ -31,7 +31,7 @@ export default function Home() {
         <Portfolio />
         <Experience />
         <Services />
-        <COntact />
+        <Contact />
       </main>
       
       <Footer />

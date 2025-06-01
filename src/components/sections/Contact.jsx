@@ -14,7 +14,7 @@ const navItems = [
   { name: 'Projects', path: '#portfolio' },
 ]
 
-export default function COntact() {
+export default function Contact() {
   const [isOpen, setIsOpen] = useState(false)
   const [showSuccessModal, setShowSuccessModal] = useState(false)
   const [showErrorModal, setShowErrorModal] = useState(false)
